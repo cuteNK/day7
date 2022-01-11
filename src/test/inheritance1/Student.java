@@ -1,0 +1,12 @@
+package test.inheritance1;
+
+public class Student extends Person {
+	
+	String addr;
+	String name;
+	int age;
+	
+	public void study () {
+		System.out.println("공부를 매우 열심히 한다. ");
+	}
+}
